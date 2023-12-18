@@ -1,11 +1,19 @@
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import Home from "./routes/Home";
+import MainPage from "./routes";
 
 
-function App() {
-
+export default function App() {
 
   return (
-   <h1>Teste</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />}>
+          <Route index element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
-export default App

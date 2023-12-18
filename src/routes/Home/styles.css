@@ -1,0 +1,31 @@
+#githubapi-home-section {
+  margin: 27px 20px;
+}
+
+.githubapi-home-title {
+  margin-bottom: 27px;
+}
+
+.githubapi-home-title h1 {
+  color: var(--githubapi-color-font-secondary);
+  font-size: 28px;
+}
+
+.githubapi-home-title h3 {
+  color: var(--githubapi-color-font-tertiary);
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  #githubapi-home-section {
+    margin: 27px 40px;
+  }
+
+  .githubapi-home-title h1 {
+    font-size: 48px;
+  }
+
+  .githubapi-home-title h3 {
+    font-size: 24px;
+  }
+}

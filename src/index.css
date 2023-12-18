@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap');
+
 :root {
-  
+  --githubapi-color-bg-primary: #FFFFFF;
+  --githubapi-color-bg-secondary: #1890FF;
+  --githubapi-color-bg-tertiary: #E6F7FF;
+
+  --githubapi-color-font-primary: #fff;
+  --githubapi-color-font-secondary: #000;
+  --githubapi-color-font-tertiary: #7E7E7E;
+  --githubapi-color-font-quaternary: #262626;
+  --githubapi-color-font-quinary: #1890FF;
+  --githubapi-color-font-senarii: #737373;
+  --githubapi-color-font-septenary: #0029FF;
+
+  --githubapi-color-font-placeholder: #BFBFBF;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
 }
