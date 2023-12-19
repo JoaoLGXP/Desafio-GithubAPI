@@ -14,7 +14,6 @@ export default function Home() {
                 <Link to='/search-user'>
                     <Button text='Começar' />
                 </Link>
-
             </section>
         </main>
     );

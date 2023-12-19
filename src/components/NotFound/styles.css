@@ -1,0 +1,29 @@
+#githubapi-notFound-section {
+  margin: 54px 15px;
+}
+
+#githubapi-notFound-section h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--githubapi-color-font-quaternary);
+}
+
+@media (min-width: 576px) {
+  #githubapi-notFound-section {
+    margin: 54px 30px;
+  }
+
+  #githubapi-notFound-section h2 {
+    font-size: 33px;
+  }
+}
+
+@media (min-width: 768px) {
+  #githubapi-notFound-section {
+    margin: 54px 90px;
+  }
+
+  #githubapi-notFound-section h2 {
+    font-size: 38px;
+  }
+}

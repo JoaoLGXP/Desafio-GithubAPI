@@ -9,11 +9,13 @@
 .githubapi-home-title h1 {
   color: var(--githubapi-color-font-secondary);
   font-size: 28px;
+  font-weight: 700;
 }
 
 .githubapi-home-title h3 {
   color: var(--githubapi-color-font-tertiary);
   font-size: 14px;
+  font-weight: 700;
 }
 
 @media (min-width: 576px) {

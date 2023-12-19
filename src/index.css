@@ -12,6 +12,7 @@
   --githubapi-color-font-quinary: #1890FF;
   --githubapi-color-font-senarii: #737373;
   --githubapi-color-font-septenary: #0029FF;
+  --githubapi-color-font-octonary: #5C5858;
 
   --githubapi-color-font-placeholder: #BFBFBF;
 
@@ -22,7 +23,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a,

@@ -6,6 +6,6 @@ type Props = {
 
 export default function Button({ text }: Props) {
     return (
-        <div className='githubapi-btn'>{text}</div>
+        <button type="submit" className='githubapi-btn'>{text}</button>
     );
 }

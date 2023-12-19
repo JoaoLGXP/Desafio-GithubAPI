@@ -16,6 +16,7 @@
   color: var(--githubapi-color-font-quaternary);
   font-size: 28px;
   margin-bottom: 12px;
+  font-weight: 500;
 }
 
 .githubapi-searchUser-card input {
@@ -23,6 +24,13 @@
   height: 40px;
   margin-bottom: 24px;
   padding: 0 17px;
+  border: 1px solid var(--githubapi-color-border);
+  outline: none;
+  color: var(--githubapi-color-font-octonary);
+}
+
+.githubapi-searchUser-card input::placeholder {
+  color: var(--githubapi-color-font-placeholder);
 }
 
 @media (min-width: 576px) {
