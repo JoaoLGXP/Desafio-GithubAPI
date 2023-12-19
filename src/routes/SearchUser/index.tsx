@@ -1,3 +1,4 @@
+import { Link, Outlet } from 'react-router-dom';
 import Button from '../../components/Button';
 import './styles.css';
 
@@ -9,8 +10,11 @@ export default function SearchUser() {
                 <form >
                     <input type="text" placeholder='Usuário Github' />
                 </form>
-                <Button text='Encontrar' />
+                <Link to="user">
+                    <Button text='Encontrar' />
+                </Link>
             </div>
+            <Outlet />
         </main>
     );
 }
